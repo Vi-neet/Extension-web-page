@@ -3,7 +3,7 @@ import { Download, ChevronLeft, ChevronRight, Check } from "lucide-react";
 
 
 const App = () => {
-  const extUrl = "http://localhost:5173/prospect-vault-ext.zip";
+  const extUrl = "https://extension-web-page.vercel.app/prospect-vault-ext.zip";
   const [currentImage, setCurrentImage] = useState(0);
   const [isDownloaded, setIsDownloaded] = useState(false);
 
